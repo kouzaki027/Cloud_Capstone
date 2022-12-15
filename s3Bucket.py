@@ -52,6 +52,6 @@ for bucket in response['Buckets']:
 
 
 # Updating the existing buckets:
-first_file_name='data.txt'
+first_file_name='timestampText.txt'
 s3_resource.Object(BN, first_file_name).upload_file(
     Filename=first_file_name)
